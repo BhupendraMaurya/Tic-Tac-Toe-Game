@@ -38,6 +38,7 @@ boxes.forEach((box) => {
         }
         else{// player X's turn
             box.innerText = "X";
+            box.style.color = "black";// changing the color when user enter X
             turnO = true;
         }
         box.disabled = true;// disabling current button, so that we could not click it again after clicking it once.
